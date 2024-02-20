@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: PX-PSI
+first_name: Dogyun
 middle_name: 
-last_name: Group
+last_name: Hwangbo
 email: hwangbo@prc.tsukuba.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -15,7 +15,7 @@ footer_text: >
   
 keywords:  # add your own keywords or leave empty
 lang: jp # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png # ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon2.png # ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://dombegi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -200,7 +200,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-announcements:
+announcements: # latest news on the main page
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder

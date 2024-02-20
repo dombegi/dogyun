@@ -3,7 +3,7 @@ layout: profiles
 permalink: /team/
 title: team
 description: members of the lab or group
-nav: true
+nav: false
 nav_order: 2
 
 profiles:
@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: dogyun.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
