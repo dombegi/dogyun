@@ -7,6 +7,7 @@
         {% assign redirect = site.baseurl | append: '/' %}
       {% elsif page.redirect contains '://' %}
         {% assign redirect = page.redirect %}
+        <meta http-equiv="refresh" content="0.1; url={{ redirect }}">
       {% else %}
         {% assign redirect = page.redirect | relative_url %}
       {% endif %}
